@@ -1,0 +1,31 @@
+img {
+  width: 20%;
+  height: auto;
+  margin-left: 6%;
+}
+.btn-tab_item {
+  width: 10%;
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#btn_1:hover {
+  background-color: red;
+}
+#btn_2:hover {
+  background-color: blue;
+}
+
+#btn_3:hover {
+  background-color: pink;
+}
+.btn-tab_item:hover {
+  transition: 0.4s;
+}
+.tab-content_item {
+  display: none;
+}
+.tab-content_item.active {
+  display: block;
+}
